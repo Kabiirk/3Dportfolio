@@ -29,8 +29,8 @@ const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(pointLight, ambientLight);
 
 //const lightHelper = new THREE.PointLightHelper(pointLight)
-const gridHelper = new THREE.GridHelper(200,50);
-scene.add(gridHelper);
+//const gridHelper = new THREE.GridHelper(200,50);
+//scene.add(gridHelper);
 
 // const controls = new THREE.OrbitControls(camera, renderer.domElement);
 
@@ -52,7 +52,7 @@ const spaceTexture = new THREE.TextureLoader().load('assets/space.jpg');
 scene.background = spaceTexture;
 
 // Avatar
-const avatarTexture = new THREE.TextureLoader().load('assets/jeff.png');
+const avatarTexture = new THREE.TextureLoader().load('assets/kabiir.png');
 const avatar = new THREE.Mesh(
     new THREE.BoxGeometry(3, 3, 3),
     new THREE.MeshBasicMaterial({ map: avatarTexture })
