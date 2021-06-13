@@ -15,3 +15,5 @@ A 3D Website made using [Three.js](https://threejs.org/) - a cross-browser JavaS
     <br>This website only uses the Three.js and Three.js - OrbitControls CDNs. So Installation of packages (npm etc.) isn't required. All that is needed to be done is to clone the repo & run [index.html](https://github.com/Kabiirk/3Dportfolio/blob/main/index.html) on a live webserver. </br>
 
 **NOTE:** Although no packages are installed, it is always preffered to do so (or using both) since CDNs can be updated frequently and may break some stuff. (unlike package instllations where you can control which version you use.)
+
+## All Done :sparkles:
